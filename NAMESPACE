@@ -1,6 +1,1 @@
 exportPattern("^[[:alpha:]]+")
-
-import(manipulate)
-importFrom(aplpack, stem.leaf)
-importFrom(car, spreadLevelPlot)
-import(vcd)
