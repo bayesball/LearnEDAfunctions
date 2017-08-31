@@ -1,0 +1,26 @@
+Species	Weight
+Albacore	88
+"Amberjack, greater"	155
+"Barracuda, great"	85
+"Barracuda, Mexican"	21
+"Barracuda, Pacific"	26
+"Bass, barred sand"	13
+"Bass, black sea"	10
+"Bass, giant sea"	563
+"Bass, striped"	78
+Bluefish	31
+Bonefish	19
+"Bonito, Atlantic"	18
+"Bonito, Pacific"	21
+Cabezon	23
+Cobia	135
+"Cod, Atlantic"	98
+"Cod, Pacific"	35
+Conger	133
+Dolphinfish	88
+"Drum, black"	113
+"Drum, Red"	94
+"Eel, American"	9
+"Eel, marbled"	36
+"Flounder, southern"	20
+"Flounder, summer"	22

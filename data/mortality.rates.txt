@@ -1,0 +1,63 @@
+Country	Rate
+Afghanistan	157
+Albania	16
+Algeria	31
+Angola	118
+Argentina	13
+Armenia	25
+Australia	5
+Austria	4
+Azerbaijan	43
+Bahamas	9
+Bahrain	10
+Bangladesh	45
+Barbados	10
+Belarus	9
+Belgium	4
+Belize	17
+Benin	85
+Bhutan	45
+Bolivia	46
+"Bosia & Herzegovina"	13
+Botswana	36
+Brazil	23
+"Brunei Darussalam"	6
+Bulgaria	12
+"Burkina Faso"	80
+Burundi	98
+Cambodia	62
+Cameroon	87
+Canada	5
+"Cape Verde"	26
+"Central African Republic"	106
+Chad	130
+Chile	7
+China	23
+Colombia	19
+Comoros	48
+"Cong, Rep. of"	79
+"Congo, Dem. Rep."	113
+"Costa Rica"	10
+Croatia	6
+Cuba	5
+Cyprus	6
+"Czech Republic"	4
+Denmark	4
+Dijbouti	85
+"Dominican Republic"	30
+"East Timor"	67
+Ecuador	21
+Egypt	35
+"El Salvador"	22
+"Equatorial Guinea"	100
+Eritrea	54
+Estonia	8
+Ethiopia	79
+Fiji	20
+Finland	3
+France	4
+Gabon	51
+Gambia	77
+Georgia	35
+Germany	4
+Ghana	73

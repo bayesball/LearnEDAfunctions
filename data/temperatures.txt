@@ -1,0 +1,6 @@
+City	January	April	July	October
+Atlanta	50	73	88	73
+Detroit	30	58	83	62
+Kansas_City	35	65	89	68
+Minneapolis	21	57	84	59
+Philadelphia	38	63	86	66

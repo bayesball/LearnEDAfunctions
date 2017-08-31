@@ -1,0 +1,10 @@
+City	Studio	One.Bedroom	Two.Bedroom	Three.Bedroom	Four.Bedroom
+Albuquerque	397	473	592	816	963
+Atlanta	613	682	795	1060	1282
+Boston	695	782	979	1223	1437
+Columbus	398	471	605	768	883
+Honolulu	595	713	839	1134	1226
+Miami	461	579	722	991	1149
+Philadelphia	497	611	755	945	1185
+San_Francisco	891	1154	1459	2001	2118
+Tulsa	392	470	625	869	1025
