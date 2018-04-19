@@ -5,6 +5,7 @@ Version: 1.41
 Date: 2017-08-31
 Author: Jim Albert
 Maintainer: Jim Albert <albert@bgsu.edu>
+Depends: car, aplpack, vcd
 LazyData: yes 
 Description: LearnEDA contains a collection of functions helpful in learning the basic tenets of Exploratory Data Analysis.  
 License:  GPL (>= 2)
