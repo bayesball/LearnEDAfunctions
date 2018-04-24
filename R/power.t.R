@@ -1,5 +1,4 @@
-power.t=function(x,power)
-{
+power.t <- function(x, power){
  if(power == 0) log(x) else
-   (x^power - 1)/power
+   (x ^ power - 1) / power
 }
