@@ -34,23 +34,25 @@
              bL = bL, bR = bR,
             summary.points = cbind(x.med, y.med))
     }
-    residual = y
-    sum.points=rline0(x, y)$summary.points
-    a = 0
-    b = 0
-    bL = 0
-    bR = 0
+    residual <- y
+    sum.points <- rline0(x, y)$summary.points
+    a <- 0
+    b <- 0
+    bL <- 0
+    bR <- 0
     for (j in 1:iter) {
-        fit = rline0(x, residual)
-        a = a + fit$a
-        b = b + fit$b
+        fit <- rline0(x, residual)
+        a <- a + fit$a
+        b <- b + fit$b
         if (j == 1) {
-            bR = fit$bR
-            bL = fit$bL
+            bR <- fit$bR
+            bL <- fit$bL
         }
-        residual = y - (a + b * (x - fit$xC))
+        residual <- y - (a + b * (x - fit$xC))
     }
-    return(list(a = a, b = b, xC = fit$xC, half.slope.ratio = bR/bL, 
+    return(list(a = a, b = b, xC = fit$xC, 
+        half.slope.ratio = bR / bL, 
         residual = residual, 
-        spoints.x=sum.points[,1],spoints.y=sum.points[,2]))
+        spoints.x = sum.points[,1],
+        spoints.y = sum.points[,2]))
 }

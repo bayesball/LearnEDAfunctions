@@ -13,7 +13,7 @@ expected <- probs * length(data)
 # compute simple rootogram residuals
 residual <- sqrt(h$counts) - sqrt(expected)
 
-list(counts = h$counts,
+data.frame(counts = h$counts,
      probs = probs,
      expected = expected,
      residual = residual)

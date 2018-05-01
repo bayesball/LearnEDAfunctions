@@ -1,8 +1,8 @@
 hinkley <- function (d){
     md <- median(d)
     mn <- mean(d)
-    s <-ndiff(quantile(d, probs = c(0.25, 0.75)))
+    s <- diff(quantile(d, probs = c(0.25, 0.75)))
     H <- (mn - md)/s
-    names(H)="h"
+    names(H) <- "h"
     H
 }

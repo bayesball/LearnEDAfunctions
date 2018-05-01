@@ -11,6 +11,6 @@ symplot <- function(d){
     geom_abline(color="red") +
     theme(plot.title = element_text(colour = "blue", 
                                     size = 18, 
-              hjust = 0.5, vjust = 0.8, angle = 0))
+              hjust = 0.5, vjust = 0.8, angle = 0)) +
     ggtitle("Symmetry Plot")
 }
