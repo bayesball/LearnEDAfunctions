@@ -5,7 +5,12 @@ symplot <- function(d){
   i <- 1 : no
   u <- sd[n + 1 - i] - median(d)
   v <- median(d) - sd[i]
-  plot(v, u, pch=19, cex=1.2)
-  abline(0, 1, lwd=3, col="red")
-  title("Symmetry Plot")
+  ggplot(data.frame(v, u),
+         aes(v, u)) +
+    geom_point() +
+    geom_abline(color="red") +
+    theme(plot.title = element_text(colour = "blue", 
+                                    size = 18, 
+              hjust = 0.5, vjust = 0.8, angle = 0))
+    ggtitle("Symmetry Plot")
 }
