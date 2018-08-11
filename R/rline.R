@@ -1,4 +1,4 @@
- rline <- function (x, y, iter = 1) {
+ rline <- function (formula, df, iter = 1) {
     rline0 <- function(x, y) {
         n <- length(x)
         k <- n - floor(n/3) * 3
@@ -34,7 +34,12 @@
              bL = bL, bR = bR,
             summary.points = cbind(x.med, y.med))
     }
-    residual <- y
+    yx <- unlist(strsplit(gsub(" ", "", formula, 
+                fixed = FALSE), "~"))
+    yx <- yx[nchar(yx) > 0]
+    residual <- df[, yx[1]]
+    x <- df[, yx[2]]
+    y <- df[, yx[1]]
     sum.points <- rline0(x, y)$summary.points
     a <- 0
     b <- 0

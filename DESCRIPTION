@@ -2,10 +2,10 @@ Package: LearnEDAfunctions
 Type: Package
 Title: Functions for Learning Exploratory Data Analysis
 Version: 1.41
-Date: 2017-08-31
+Date: 2018-08-11
 Author: Jim Albert
 Maintainer: Jim Albert <albert@bgsu.edu>
-Depends: car, aplpack, vcd, ggplot2
+Depends: car, aplpack, vcd, tidyverse
 LazyData: yes 
 Description: LearnEDA contains a collection of functions helpful in learning the basic tenets of Exploratory Data Analysis.  
 License:  GPL (>= 2)
