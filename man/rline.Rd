@@ -5,11 +5,11 @@
 Fits Tukey's resistant line of form a + b (x - xC).
 }
 \usage{
-rline(x,y,iter=1)
+rline(formula, df, iter=1)
 }
 \arguments{
-  \item{x}{numeric vector of values of explanatory variable}
-  \item{y}{numeric vector of values of response variable}
+  \item{formula}{formula for line of form y ~ x}
+  \item{df}{data frame}
   \item{iter}{number of iterations of algorithm}
 }
 \value{
@@ -26,14 +26,9 @@ rline(x,y,iter=1)
 \author{Jim Albert}
 
 \examples{
-x=1:10
-y=3*x+rnorm(10,0,1)
-y[1]=20
-fit=rline(x,y,iter=5)
-plot(x,y)
-curve(fit$a+fit$b*(x-fit$xC),add=TRUE)
-# contrast with least-squares fit
-abline(lm(y~x))
+df <- data.frame(x = 1:10,
+                 y = 3 * (1:10) + rnorm(10))
+fit <- rline(y ~ x, df, iter=5)
 }
 
 \keyword{dplot}
