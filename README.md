@@ -11,10 +11,17 @@ install_github("bayesball/LearnEDAfunctions)
 
 The only prerequisite packages are the dplyr and ggplot2 packages.
 
-
 ```{r}
 library(LearnEDAfunctions)
 ```
+
+# Other EDA Functions
+
+Also there are several functions from other packages used in the course.  One will need to install 
+these packages to use this functions.
+
+- stem.leaf() from the aplpack package
+- rootogram() from the vcd package
 
 # Datasets
 
