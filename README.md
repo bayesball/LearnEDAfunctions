@@ -2,6 +2,8 @@
 
 This package includes special functions and datasets for a course on Exploratory Data Analysis based on John Tukey's EDA text.
 
+# Installation
+
 It can be installed from Jim Albert's Github site:
 
 ```
@@ -11,19 +13,23 @@ install_github("bayesball/LearnEDAfunctions)
 
 The only prerequisite packages are the dplyr and ggplot2 packages.
 
+## Loading
+
+The ```LearnEDAfunctions``` package is loaded by the library() function:
+
 ```{r}
 library(LearnEDAfunctions)
 ```
 
 # Other EDA Functions
 
-Also there are several functions from other packages used in the course.  One will need to install 
+Also there are several functions from other packages used in the EDA course.  One will need to install 
 these packages to use this functions.
 
 - stem.leaf() from the aplpack package
 - rootogram() from the vcd package
 
-# Datasets
+# Datasets in LearnEDAfunctions
 
 - `act.scores.06.07`	ACT scores of states in the US.
 - `baseball.attendance`	Attendance at baseball teams.
@@ -68,7 +74,7 @@ these packages to use this functions.
 - `tukey.26c`	Tukey straightening exercise 24c
 - `us.pop`	Population of United States
 
-# Functions
+# Functions in LearnEDAfunctions
 
 ## fit.gaussian() function
 
