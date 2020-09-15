@@ -8,7 +8,7 @@ It can be installed from Jim Albert's Github site:
 
 ```
 library(remotes)
-install_github("bayesball/LearnEDAfunctions)
+install_github("bayesball/LearnEDAfunctions")
 ```
 
 The only prerequisite packages are the dplyr and ggplot2 packages.
