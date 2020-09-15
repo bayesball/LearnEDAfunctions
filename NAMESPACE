@@ -1,3 +1,1 @@
 exportPattern("^[[:alpha:]]+")
-importFrom("vcd", "rootogram")
-importFrom("aplpack", "stem.leaf")
