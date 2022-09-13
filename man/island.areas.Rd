@@ -3,8 +3,7 @@
 \docType{data}
 \title{Areas of islands from different continents.}
 \description{
-Total number of home runs hit all teams in the major league baseball
-league for the years 1900,1910,..., 2000.
+Size, name, and surrounding ocean for 59 different islands.
 }
 \usage{
 islands.areas
@@ -14,7 +13,7 @@ islands.areas
   \describe{
   \item{Ocean}{ocean where the island lies}
   \item{Name}{name of the island}
-  \item{Area}{area of the island}
+  \item{Area}{area of the island in square miles)}
 }}
 \source{World Almanac and Book of Facts}
 \keyword{datasets}
